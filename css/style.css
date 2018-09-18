@@ -1,0 +1,39 @@
+body{
+	font-family: arial, sans-serif;
+	color: #000;
+	background: #FFF;
+	font-size: 16px;
+	line-height: 1.3;
+	min-width: 900px;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.container{
+	width: 900px;
+	margin: 0 auto;
+}
+header{
+	background: #CCC;
+	padding: 20px;
+}
+.content{
+	overflow: hidden;
+}
+.sidebar{
+	width: 30%;
+	padding: 20px;
+	float: left;
+	background: pink;
+}
+.main{
+	/*width: 65%;*/
+	padding: 20px;
+	/*float: right;*/
+	background: gold;
+}
+footer{
+	background: #CCC;
+	padding: 20px;
+}
